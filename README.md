@@ -23,12 +23,12 @@ unrar x dpex-paper.rar        # or 7-Zip / WinRAR on Windows
 
 ## Reference papers
 
-The PDFs of the cited papers are not included: free to read does not mean free to redistribute. After extracting, run
+`references/pdf/` holds the 17 cited papers that are freely available online (from the authors' pages, arXiv, JMLR and the EPFL repository). Copyright stays with their authors and publishers; the source of each file is listed in `references/STATUS.md`. To fetch them again from the original sources:
 
 ```bash
 bash dpex-paper/references/get_free_pdfs.sh
 ```
 
-It downloads the 16 freely available papers from their legitimate sources (authors' pages, arXiv, JMLR) and prints links for 6 more that must be opened in a browser.
+The script also prints links for 5 more free papers that must be opened in a browser.
 
 The unpacked project is also browsable at github.com/Aldiendix/dpex-paper.
